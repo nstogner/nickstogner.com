@@ -1,0 +1,15 @@
+baseURL: https://nickstogner.com/
+languageCode: en-us
+title: Nick Stogner
+author: Nick Stogner
+theme: ["paper"]
+
+#mainsections: ["posts"]
+
+params:
+  color: white
+  monoDarkIcon: true
+  github: nstogner
+  linkedin: nstogner
+  name: About
+  bio: "I am currently building large scale ML training and inference platforms. Currently writing about Kubernetes, Go, and Google Cloud."
