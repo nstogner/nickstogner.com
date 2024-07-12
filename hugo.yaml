@@ -12,4 +12,4 @@ params:
   github: nstogner
   linkedin: nstogner
   name: About
-  bio: "I am currently building large scale ML training and inference platforms. Currently writing about Kubernetes, Go, and Google Cloud."
+  bio: "Currently building large scale ML training and inference platforms. Topics here will focus on Kubernetes, Go, and other Cloud-related things."
