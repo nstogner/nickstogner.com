@@ -1,15 +1,77 @@
-baseURL: https://www.nickstogner.com/
-languageCode: en-us
 title: Nick Stogner
-author: Nick Stogner
-theme: ["paper"]
+baseURL: https://www.nickstogner.com/
+defaultContentLanguage: en-gb
+theme: ["hugo-blog-awesome"]
+
+ignoreErrors:
+  - additional-script-loading-error
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
 
 #mainsections: ["posts"]
 
+Languages:
+  en-gb:
+    languageName: English
+    languageCode: en-gb
+    contentDir: content/en
+    weight: 1
+    menu:
+      main:
+        - pageRef: /
+          name: Home
+          url: /
+          weight: 10
+        - pageRef: posts
+          name: Posts
+          url: /posts/
+          weight: 20
+        #- pageRef: about
+        #  name: About
+        #  url: /about/
+        #  weight: 30
+    params:
+      sitename: Nick Stogner
+      defaultColor: light
+      description: "Currently building large scale ML training and inference platforms. Topics here will focus on Kubernetes, Go, and other Cloud-related things."
+      mainSections:
+        - posts
+      toc: false
+      tocOpen: false
+      goToTop: false
+      #additionalScripts:
+      #  - js/custom.js
+      #  - js/custom-2.js
+      dateFormat: ''
+      #rssFeedDescription: summary
+      author:
+        avatar: avatar.jpeg
+        intro: Nick's Blog
+        name: Nick Stogner
+        description: >-
+          Cloud practitioner / ML infrastructure
+      #webmanifest:
+      #  name: sitename
+      #  short_name: sitename
+      #  start_url: /
+      #  theme_color: '#434648'
+      #  background_color: '#fff'
+      #  display: standalone
+
 params:
-  color: white
-  monoDarkIcon: true
-  github: nstogner
-  linkedin: nstogner
-  name: About
-  bio: "Currently building large scale ML training and inference platforms. Topics here will focus on Kubernetes, Go, and other Cloud-related things."
+  browserconfig:
+    TileColor: '#2d89ef'
+  socialIcons:
+    - name: github
+      url: https://github.com/nstogner
+    - name: linkedin
+      url: https://www.linkedin.com/in/nstogner

@@ -1,10 +1,12 @@
 ---
 title: 'Kubernetes Controllers 101'
+description: Short introduction to Kubernetes controllers
 date: 2024-07-11T08:02:09-04:00
 draft: false
 tags:
   - kubernetes
   - controllers
+image: /images/kubernetes-controllers-101.png
 ---
 
 ![Kubernetes Controllers 101](/images/kubernetes-controllers-101.png)

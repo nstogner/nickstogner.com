@@ -1,11 +1,13 @@
 ---
 title: 'Kueue 101'
+description: Short introduction to the Kueue project
 date: 2024-07-25T14:32:01-04:00
 draft: false
 tags:
   - kubernetes
   - controllers
   - hpc
+image: /images/kueue-101.png
 ---
 
 ![Kueue 101](/images/kueue-101.png)
